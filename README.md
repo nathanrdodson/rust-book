@@ -1,10 +1,5 @@
 # Notes
 
-## Chapter 1
+I am completing this book: https://doc.rust-lang.org/book/
 
-    - the main function is special: it is always the first code that runs in every executable Rust program.
-    - ahead-of-time compiled language
-
-## Chapter 2
-
-    - 
+This will help me kickstart Rust stuff.
