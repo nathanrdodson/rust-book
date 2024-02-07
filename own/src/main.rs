@@ -1,12 +1,13 @@
 fn main() {
-    let s1 = String::from("string");
+	// string literal vs String datatype
+    let s1 = String::from("some string");
 	println!("{s1}");
-	// perform move
 
 	// "when you see a call to clone, you know that some arbitrary code is 
 	// being executed and that code may be expensive. It’s a visual 
 	// indicator that something different is going on."
 
+	// perform move
 	let s2 = s1.clone();
 	// s1 now cloned
 	println!("{s1}, {s2}");

@@ -33,7 +33,7 @@ fn loops() {
 
 	println!("Value after loop: {result}");
 
-	// label loops for readability and granual control flow
+	// label loops for readability and granualar control flow
 	'count_up: loop {
 		println!("Count = {count}");
 
